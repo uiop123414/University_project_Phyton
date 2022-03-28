@@ -1,5 +1,10 @@
+import finviz
+import pprint
+
+
 def main():
-    print("Отдыхаем")
+    a = finviz.get_stock('MSFT')
+    pprint.pprint(a)
 
 
 if __name__ == '__main__':
